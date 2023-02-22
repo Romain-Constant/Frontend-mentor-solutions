@@ -1,0 +1,184 @@
+/* ### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 20px;
+}
+
+.container {
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.18);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    
+}
+
+.card-community {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+h2.community-title {
+    color: hsl(179, 61%, 35%);
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+h3.community-slogan {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+p.community-text {
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.card-subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+}
+
+h2.subscription-title {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+p.period {
+    color: rgba(255, 255, 255, 0.595);
+}
+
+p.access-level {
+    color: rgba(255, 255, 255, 0.87);
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+button.signup {
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 6px 20px -2px rgba(0, 0, 0, 0.269);
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+
+h1.price {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card-whyus {
+    background-color: hsl(179, 52%, 52%);
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    
+    
+}
+
+h2.whyus-title {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+p.whyus-text {
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.704);
+    margin-bottom: 5px;
+
+}
+
+footer {
+    max-width: 350px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.community-text > br {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .desktop-bottom-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 700px;
+        border-radius: 10px;
+    }
+
+    .card-community {
+        padding: 40px;
+        border-radius: 10px 10px 0 0;
+        width: 700px;
+    }
+
+    .card-subscription {
+        width: 50%;
+        height: 100%;
+        border-radius: 0 0 0 10px;
+        padding: 40px;
+        
+    }
+
+    .card-whyus {
+        width: 50%;
+        height: 294px;
+        border-radius: 0 0 10px 0;
+        padding: 40px;
+    }
+
+    .community-text > br {
+        display: inline;
+    }
+}
