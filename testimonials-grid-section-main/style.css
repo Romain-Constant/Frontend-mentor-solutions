@@ -28,7 +28,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    /* margin: 3rem auto; */
     background-color: var(--light-grayish-blue);
 }
 
@@ -192,18 +191,4 @@ body {
         justify-self: stretch;
         min-height: 100%;
     }
-
-    #card-daniel, #card-jonathan, #card-jeanette, #card-patrick {
-        /* height: 50%; */
-    }
-
-    #card-daniel, #card-patrick {
-        /* width: 50%; */
-    }
-
-    #card-jonathan, #card-jeanette, #card-kira {
-        /* width: 25%; */
-    }
-
-
 }
