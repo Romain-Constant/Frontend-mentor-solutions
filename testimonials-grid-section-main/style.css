@@ -85,6 +85,9 @@ body {
 #card-daniel {
     background-color: var(--moderate-violet);
     color: var(--white);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
 }
 
 #card-daniel img {
@@ -156,6 +159,7 @@ body {
         align-self: start;
         justify-self: stretch;
         min-height: 100%;
+        background-position-x: 80%;
         
         
     }
